@@ -26,7 +26,7 @@ class Game extends React.Component {
             gameOver: false
         };
     }
-
+    //vaikeamman pelitilan vastauksen tarkistus
     checkAnswer = (event) => {
         event.preventDefault();
         var input = this.guess.value;
@@ -72,6 +72,7 @@ class Game extends React.Component {
         });
     }
 
+    //helpomman pelitilan vastauksen tarkistus
     checkMultiAnswer(button) {
         var input = this.state.choises[button]["name"];
 
@@ -139,6 +140,7 @@ class Game extends React.Component {
         });
     }
 
+    //Hankkii listan lipuista, jotka ovat YK:n jäseniä. 
     getFlags() {
         var list = [];
         const Http = new XMLHttpRequest();
@@ -207,6 +209,7 @@ class Game extends React.Component {
         }
     }
 
+    //Palauttaa oikean inputin riippuen pelataanko vaikeaa vaiko helpompaa pelitilaa.
     getInput() {
         if (this.state.offerChoises) {
             return (
