@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+img{
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (max-width: 600px){
+    .flag{
+        height: 150px;
+    }
+}
+
+button{
+    font-size: large;
+    margin: 5px;
+}
+
+.game{
+    width: 100%;
+    text-align: center;
+}
+
+.correct{
+    background-color: green;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.correct p{
+    padding-top: 5px;
+    color: white;
+    font-size: large;
+}
+
+.wrong{
+    background-color: red;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.wrong p{
+    padding-top: 5px;
+    color: white;
+    font-size: large;
+}
+
+.statsRow, .statsRow p{
+    margin: 5px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.history{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
