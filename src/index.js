@@ -177,12 +177,14 @@ class Game extends React.Component {
                 if (this.state.offerChoises) {
                     var correctChoise = Math.floor(Math.random() * 2);
 
-                    var countriesCopy = countries;
+                    var countriesCopy = countries.slice();
 
                     countriesCopy.splice(nextFlag, 1)
 
                     for (var i = 0; i < 4; i++) {
                         if (i === correctChoise) {
+                            console.log("Testi")
+
                             choises.push(countries[nextFlag]);
                         }
                         else {
