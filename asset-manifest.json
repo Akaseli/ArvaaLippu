@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ArvaaLippu/static/css/main.d55ebd14.css",
-    "main.js": "/ArvaaLippu/static/js/main.3364caa8.js",
+    "main.js": "/ArvaaLippu/static/js/main.ada30132.js",
     "index.html": "/ArvaaLippu/index.html",
     "main.d55ebd14.css.map": "/ArvaaLippu/static/css/main.d55ebd14.css.map",
-    "main.3364caa8.js.map": "/ArvaaLippu/static/js/main.3364caa8.js.map"
+    "main.ada30132.js.map": "/ArvaaLippu/static/js/main.ada30132.js.map"
   },
   "entrypoints": [
     "static/css/main.d55ebd14.css",
-    "static/js/main.3364caa8.js"
+    "static/js/main.ada30132.js"
   ]
 }
